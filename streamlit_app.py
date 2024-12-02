@@ -69,5 +69,3 @@ if gdf is not None:
 
     st.write("Resultados con área y perímetro:")
     st.write(gdf[['Área (m²)', 'Perímetro (m)']])
-
-streamlit run app.py
